@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="ETF-Charts", page_icon=":bar_chart:", layout="wide")
 
-option = st.sidebar.selectbox("Welcher ETF?", ('World', 'EM', 'ESPO'))
+option = st.sidebar.selectbox("Welcher ETF?", ('World', 'EM'))
 clovol = ['Schlusskurs', 'Volumen', 'Schlusskurs & Volumen']
 
 
